@@ -1,3 +1,3 @@
 # react-project
-nmp install
+nmp install /n
 npm run dev

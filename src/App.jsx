@@ -24,7 +24,7 @@ export default function App () {
       <div>counter</div>
       <div>{counter}</div>
       <button onClick={handleClick}>click</button>
-      <button onClick={()=>dispatch(increment())}>Add</button>
+      <button onClick={()=>dispatch(increment(5))}>Add</button>
     </>
   );
 }

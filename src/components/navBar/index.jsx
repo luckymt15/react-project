@@ -2,7 +2,6 @@ import "./index.css";
 import React from "react";
 import { f_a_j_a, f_a_j_c, f_ } from "../../cssUtility";
 import { Button } from "primereact/button";
-import { NAV_HEADERS } from "./mock";
 import { NAV_BAR_CONTENT } from "../../constant/constant";
 
 export default function NavigationBar() {
@@ -19,7 +18,7 @@ export default function NavigationBar() {
         <div className={`${f_} column-gap-4`}>
           <div className="text-900">{NAV_BAR_CONTENT.Title.title_2}</div>
           <ul className={f_}>
-            {NAV_HEADERS.map((N, I) => {
+            {NAV_BAR_CONTENT.NavHeaders.map((N, I) => {
               return <li key={I} className='mx-3 text_color cursor-pointer'>{N.title}</li>;
             })}
           </ul>

@@ -1,0 +1,6 @@
+.text_color{
+    color: #6C5CE7;
+}
+ul ::marker {
+    color: var(--orange-400) !important;
+}
